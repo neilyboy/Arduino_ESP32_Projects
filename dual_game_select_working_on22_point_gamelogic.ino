@@ -509,20 +509,7 @@ void startGame() {
     startGame();
   }
   }
-
-  // Game round completed
-  display.clearDisplay();
-  display.setTextSize(1);
-  display.setTextColor(SSD1306_WHITE);
-  display.setCursor(0, 10);
-  display.println("ROUND COMPLETED");
-  display.display();
-  delay(2000); // Let the user read the message
-
-  // Automatically start the next round
-  startGame();
 }
-
 
 void updateDisplay() {
   display.clearDisplay();
