@@ -43,6 +43,8 @@ void setup() {
 
   pinMode(BUTTON_MINUS_1, INPUT_PULLUP);
   pinMode(BUTTON_PLUS_1, INPUT_PULLUP);
+  pinMode(BUTTON_PLUS_3, INPUT_PULLUP);
+  pinMode(BUTTON_PLUS_5, INPUT_PULLUP);
   pinMode(BUTTON_NEXT, INPUT_PULLUP);
 
   if(!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
